@@ -1,0 +1,404 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-soft: #eef3f1;
+  --ink: #1f2328;
+  --muted: #66707a;
+  --line: #d8dee4;
+  --accent: #b3342b;
+  --accent-dark: #7f241f;
+  --gold: #c8953d;
+  --green: #2f7a67;
+  --shadow: 0 20px 60px rgba(31, 35, 40, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 24px;
+  background: #1f2328;
+  color: #f6f8fa;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: var(--accent);
+  font-weight: 800;
+}
+
+.brand h1,
+.brand p,
+.topbar h2,
+.topbar p,
+.panel h3,
+.section-toolbar h3 {
+  margin: 0;
+}
+
+.brand h1 {
+  font-size: 20px;
+}
+
+.brand p,
+.eyebrow,
+.panel-heading span,
+.metric span,
+.range-value {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.sidebar .brand p,
+.sidebar .project-health {
+  color: rgba(246, 248, 250, 0.7);
+}
+
+.nav-list {
+  display: grid;
+  gap: 8px;
+}
+
+.nav-item {
+  width: 100%;
+  border: 0;
+  padding: 12px 14px;
+  background: transparent;
+  color: rgba(246, 248, 250, 0.74);
+  text-align: left;
+}
+
+.nav-item.active,
+.nav-item:hover {
+  background: rgba(246, 248, 250, 0.12);
+  color: #f6f8fa;
+}
+
+.project-health {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  font-size: 13px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #82c26e;
+}
+
+.workspace {
+  min-width: 0;
+  padding: 28px;
+}
+
+.topbar,
+.section-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.topbar h2 {
+  font-size: 34px;
+  line-height: 1.1;
+}
+
+.eyebrow {
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.primary-button,
+.secondary-button,
+.icon-button {
+  border: 1px solid var(--line);
+  min-height: 40px;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.primary-button {
+  border-color: var(--accent);
+  padding: 0 18px;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+}
+
+.secondary-button {
+  padding: 0 14px;
+}
+
+.icon-button {
+  width: 40px;
+  font-size: 22px;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+}
+
+.two-columns {
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+}
+
+.panel {
+  border: 1px solid var(--line);
+  padding: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.panel-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+label {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  padding: 11px 12px;
+  background: #fbfcfd;
+  color: var(--ink);
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--accent);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.metric {
+  display: grid;
+  gap: 4px;
+  border: 1px solid var(--line);
+  padding: 14px;
+  background: var(--surface-soft);
+}
+
+.metric strong {
+  font-size: 28px;
+}
+
+.timeline-preview {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.timeline-item {
+  border-left: 3px solid var(--accent);
+  padding: 9px 12px;
+  background: #fbfcfd;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.character-card {
+  border: 1px solid var(--line);
+  padding: 14px;
+  background: var(--surface);
+}
+
+.character-card input,
+.character-card textarea {
+  margin-top: 8px;
+}
+
+.storyboard-layout {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.scene-list {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+}
+
+.scene-card {
+  border: 1px solid var(--line);
+  padding: 12px;
+  background: var(--surface);
+  text-align: left;
+}
+
+.scene-card.active {
+  border-color: var(--accent);
+  box-shadow: inset 4px 0 0 var(--accent);
+}
+
+.scene-card strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.scene-card span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.scene-editor {
+  min-height: 520px;
+}
+
+.inline-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.prompt-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.prompt-output pre {
+  min-height: 360px;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: #2f2b25;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .app-shell,
+  .two-columns,
+  .storyboard-layout,
+  .prompt-board {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    gap: 16px;
+  }
+
+  .nav-list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .nav-item {
+    text-align: center;
+    padding: 10px 8px;
+  }
+
+  .workspace {
+    padding: 18px;
+  }
+
+  .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px) {
+  .nav-list,
+  .metric-grid,
+  .inline-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar-actions {
+    width: 100%;
+  }
+
+  .primary-button {
+    flex: 1;
+  }
+}

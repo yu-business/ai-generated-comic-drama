@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-generated comic drama 工作台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">AI</div>
+          <div>
+            <h1>漫剧工作台</h1>
+            <p>Comic drama studio</p>
+          </div>
+        </div>
+
+        <nav class="nav-list" aria-label="工作区导航">
+          <button class="nav-item active" data-section="overview">总览</button>
+          <button class="nav-item" data-section="characters">角色</button>
+          <button class="nav-item" data-section="storyboard">分镜</button>
+          <button class="nav-item" data-section="prompts">提示词</button>
+        </nav>
+
+        <div class="project-health">
+          <span class="status-dot"></span>
+          <span>本地自动保存中</span>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">AI-generated comic drama</p>
+            <h2>创作工作台</h2>
+          </div>
+          <div class="topbar-actions">
+            <button class="icon-button" id="exportBtn" title="导出 JSON" aria-label="导出 JSON">↓</button>
+            <button class="primary-button" id="addSceneBtn">新增分镜</button>
+          </div>
+        </header>
+
+        <section class="section active" id="overview">
+          <div class="grid two-columns">
+            <form class="panel" id="projectForm">
+              <div class="panel-heading">
+                <h3>项目设定</h3>
+                <span>基础信息</span>
+              </div>
+              <label>
+                作品名称
+                <input name="title" autocomplete="off" />
+              </label>
+              <label>
+                类型
+                <select name="genre">
+                  <option>都市情感</option>
+                  <option>古风权谋</option>
+                  <option>悬疑反转</option>
+                  <option>奇幻冒险</option>
+                  <option>校园成长</option>
+                </select>
+              </label>
+              <label>
+                目标平台
+                <select name="platform">
+                  <option>抖音短剧</option>
+                  <option>视频号</option>
+                  <option>小红书</option>
+                  <option>YouTube Shorts</option>
+                  <option>TikTok</option>
+                </select>
+              </label>
+              <label>
+                核心卖点
+                <textarea name="hook" rows="4"></textarea>
+              </label>
+            </form>
+
+            <div class="panel">
+              <div class="panel-heading">
+                <h3>生产状态</h3>
+                <span>自动统计</span>
+              </div>
+              <div class="metric-grid">
+                <div class="metric">
+                  <strong id="sceneCount">0</strong>
+                  <span>分镜</span>
+                </div>
+                <div class="metric">
+                  <strong id="characterCount">0</strong>
+                  <span>角色</span>
+                </div>
+                <div class="metric">
+                  <strong id="promptCount">0</strong>
+                  <span>提示词</span>
+                </div>
+              </div>
+              <div class="timeline-preview" id="timelinePreview"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="characters">
+          <div class="section-toolbar">
+            <h3>角色卡</h3>
+            <button class="secondary-button" id="addCharacterBtn">新增角色</button>
+          </div>
+          <div class="card-grid" id="characterList"></div>
+        </section>
+
+        <section class="section" id="storyboard">
+          <div class="section-toolbar">
+            <h3>分镜表</h3>
+            <button class="secondary-button" id="duplicateSceneBtn">复制当前分镜</button>
+          </div>
+          <div class="storyboard-layout">
+            <div class="scene-list" id="sceneList"></div>
+            <form class="panel scene-editor" id="sceneForm">
+              <div class="panel-heading">
+                <h3>镜头编辑</h3>
+                <span id="currentSceneLabel">Scene 01</span>
+              </div>
+              <label>
+                场景标题
+                <input name="title" autocomplete="off" />
+              </label>
+              <label>
+                画面描述
+                <textarea name="visual" rows="5"></textarea>
+              </label>
+              <label>
+                台词/旁白
+                <textarea name="dialogue" rows="4"></textarea>
+              </label>
+              <div class="inline-fields">
+                <label>
+                  景别
+                  <select name="shot">
+                    <option>特写</option>
+                    <option>近景</option>
+                    <option>中景</option>
+                    <option>远景</option>
+                    <option>俯拍</option>
+                  </select>
+                </label>
+                <label>
+                  情绪
+                  <select name="mood">
+                    <option>紧张</option>
+                    <option>温柔</option>
+                    <option>压迫</option>
+                    <option>惊讶</option>
+                    <option>释然</option>
+                  </select>
+                </label>
+              </div>
+              <label>
+                时长
+                <input name="duration" type="range" min="2" max="12" step="1" />
+                <span class="range-value" id="durationValue">5 秒</span>
+              </label>
+            </form>
+          </div>
+        </section>
+
+        <section class="section" id="prompts">
+          <div class="section-toolbar">
+            <h3>AI 提示词</h3>
+            <button class="secondary-button" id="copyPromptBtn">复制当前提示词</button>
+          </div>
+          <div class="prompt-board">
+            <div class="panel prompt-output">
+              <div class="panel-heading">
+                <h3>绘图提示词</h3>
+                <span>Image prompt</span>
+              </div>
+              <pre id="imagePrompt"></pre>
+            </div>
+            <div class="panel prompt-output">
+              <div class="panel-heading">
+                <h3>视频提示词</h3>
+                <span>Video prompt</span>
+              </div>
+              <pre id="videoPrompt"></pre>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,3 +1,18 @@
-# AI漫剧
+# AI-generated comic drama
 
-Initial project workspace.
+AI 漫剧创作工作台第一版。
+
+## 使用方式
+
+直接在浏览器打开 `index.html`。
+
+当前功能：
+
+- 项目基础设定
+- 角色卡管理
+- 分镜场景编辑
+- AI 绘图/视频提示词生成
+- 本地自动保存
+- JSON 导出
+
+后续可以继续接入真实 AI 生成接口、素材库、剧本导入和多人协作。
