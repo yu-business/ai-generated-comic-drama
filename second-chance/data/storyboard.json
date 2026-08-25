@@ -1,0 +1,320 @@
+[
+  {
+    "shot_id": "S01",
+    "start": 0.0,
+    "end": 3.0,
+    "duration": 3.0,
+    "scene": "Deserted road at night",
+    "characters": [
+      "Elena",
+      "Adrian"
+    ],
+    "description": "Elena lying injured on wet asphalt at night, black evening dress, wet black hair stuck to her face, terrified and betrayed expression, heavy rain, streetlights reflecting on the road; Adrian is a blurred silhouette in the distance.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "slow push-in toward Elena",
+    "dialogue": [],
+    "voice_over": "The night I died...",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nAdrian, a handsome 31-year-old man, short dark brown hair, sharp jawline, gray-blue eyes, tall athletic build, clean shaven, charming and sophisticated appearance,\nElena lying injured on wet asphalt at night, black evening dress, wet black hair stuck to her face, terrified and betrayed expression, heavy rain, streetlights reflecting on the road; Adrian is a blurred silhouette in the distance.,\nelegant black evening dress, luxury black tuxedo, white shirt, black bow tie,\nDeserted road at night,\ncold blue-gray night lighting, heavy rain, wet asphalt reflections, high contrast, dark thriller atmosphere,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nslow push-in toward Elena,\nvertical 9:16",
+    "transition": "fade",
+    "sfx": [
+      "rain",
+      "distant thunder"
+    ],
+    "music_mood": "dark suspense",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S02",
+    "start": 3.0,
+    "end": 6.0,
+    "duration": 3.0,
+    "scene": "Deserted road at night",
+    "characters": [
+      "Adrian"
+    ],
+    "description": "Adrian stands under a black umbrella, looking down at Elena outside the frame, emotionally unreadable.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "slow cinematic zoom toward Adrian's face",
+    "dialogue": [],
+    "voice_over": "my husband was watching.",
+    "image_prompt": "Adrian, a handsome 31-year-old man, short dark brown hair, sharp jawline, gray-blue eyes, tall athletic build, clean shaven, charming and sophisticated appearance,\nAdrian stands under a black umbrella, looking down at Elena outside the frame, emotionally unreadable.,\nluxury black tuxedo, white shirt, black bow tie,\nDeserted road at night,\ncold blue-gray night lighting, heavy rain, wet asphalt reflections, high contrast, dark thriller atmosphere,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nslow cinematic zoom toward Adrian's face,\nvertical 9:16",
+    "transition": "cut",
+    "sfx": [
+      "rain"
+    ],
+    "music_mood": "dark suspense",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S03",
+    "start": 6.0,
+    "end": 9.0,
+    "duration": 3.0,
+    "scene": "Deserted road at night",
+    "characters": [
+      "Adrian",
+      "Claire"
+    ],
+    "description": "Claire steps out from behind Adrian and gently links her arm with his under the rain.",
+    "motion_prompt": "pan_right",
+    "camera": "slow side reveal",
+    "dialogue": [
+      "CLAIRE: I'm sorry, Elena."
+    ],
+    "voice_over": "",
+    "image_prompt": "Adrian, a handsome 31-year-old man, short dark brown hair, sharp jawline, gray-blue eyes, tall athletic build, clean shaven, charming and sophisticated appearance,\nClaire, a beautiful 27-year-old woman, long wavy blonde hair, green eyes, delicate feminine facial features, fair skin, slender elegant figure, sweet innocent appearance,\nClaire steps out from behind Adrian and gently links her arm with his under the rain.,\nluxury black tuxedo, white shirt, black bow tie, elegant champagne-colored bridesmaid dress,\nDeserted road at night,\ncold blue-gray night lighting, heavy rain, wet asphalt reflections, high contrast, dark thriller atmosphere,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nslow side reveal,\nvertical 9:16",
+    "transition": "cut",
+    "sfx": [
+      "rain"
+    ],
+    "music_mood": "dark suspense",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S04",
+    "start": 9.0,
+    "end": 12.0,
+    "duration": 3.0,
+    "scene": "Deserted road at night",
+    "characters": [
+      "Elena"
+    ],
+    "description": "Extreme close-up of Elena as her eyes widen with the full understanding of betrayal.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "extreme close-up",
+    "dialogue": [],
+    "voice_over": "",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nExtreme close-up of Elena as her eyes widen with the full understanding of betrayal.,\nelegant black evening dress,\nDeserted road at night,\ncold blue-gray night lighting, heavy rain, wet asphalt reflections, high contrast, dark thriller atmosphere,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nextreme close-up,\nvertical 9:16",
+    "transition": "cut",
+    "sfx": [
+      "rain",
+      "breathing"
+    ],
+    "music_mood": "dark suspense",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S05",
+    "start": 12.0,
+    "end": 15.0,
+    "duration": 3.0,
+    "scene": "Deserted road at night",
+    "characters": [
+      "Elena"
+    ],
+    "description": "Elena POV: two bright car headlights rapidly approach, then a white flash. Do not show impact.",
+    "motion_prompt": "flash",
+    "camera": "rapid zoom into headlights",
+    "dialogue": [
+      "ELENA: Wait—"
+    ],
+    "voice_over": "",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nElena POV: two bright car headlights rapidly approach, then a white flash. Do not show impact.,\nelegant black evening dress,\nDeserted road at night,\ncold blue-gray night lighting, heavy rain, wet asphalt reflections, high contrast, dark thriller atmosphere,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nrapid zoom into headlights,\nvertical 9:16",
+    "transition": "white flash",
+    "sfx": [
+      "crash"
+    ],
+    "music_mood": "dark suspense",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S06",
+    "start": 15.0,
+    "end": 18.0,
+    "duration": 3.0,
+    "scene": "Black void",
+    "characters": [],
+    "description": "Pure black screen between death and rebirth.",
+    "motion_prompt": "black",
+    "camera": "static black frame",
+    "dialogue": [
+      "PRIEST: Elena?"
+    ],
+    "voice_over": "",
+    "image_prompt": "",
+    "transition": "fade",
+    "sfx": [
+      "heartbeat",
+      "heartbeat"
+    ],
+    "music_mood": "silence",
+    "asset_type": "black"
+  },
+  {
+    "shot_id": "S07",
+    "start": 18.0,
+    "end": 22.0,
+    "duration": 4.0,
+    "scene": "Elegant wedding church",
+    "characters": [
+      "Elena"
+    ],
+    "description": "Elena suddenly opens her eyes in warm bright light, now wearing her wedding dress.",
+    "motion_prompt": "rapid_zoom_out",
+    "camera": "extreme close-up on eyes, quick pull-back",
+    "dialogue": [],
+    "voice_over": "",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nElena suddenly opens her eyes in warm bright light, now wearing her wedding dress.,\nminimalist white satin wedding dress, pearl earrings, delicate silver necklace,\nElegant wedding church,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nextreme close-up on eyes, quick pull-back,\nvertical 9:16",
+    "transition": "flash",
+    "sfx": [],
+    "music_mood": "mysterious emotional tension",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S08",
+    "start": 22.0,
+    "end": 26.0,
+    "duration": 4.0,
+    "scene": "Elegant wedding church",
+    "characters": [
+      "Elena",
+      "Adrian"
+    ],
+    "description": "Wide shot inside an elegant European wedding church with white flowers and guests. Adrian stands opposite Elena.",
+    "motion_prompt": "slow_zoom_out",
+    "camera": "wide establishing shot",
+    "dialogue": [
+      "PRIEST: Do you take Adrian to be your husband?"
+    ],
+    "voice_over": "",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nAdrian, a handsome 31-year-old man, short dark brown hair, sharp jawline, gray-blue eyes, tall athletic build, clean shaven, charming and sophisticated appearance,\nWide shot inside an elegant European wedding church with white flowers and guests. Adrian stands opposite Elena.,\nminimalist white satin wedding dress, pearl earrings, delicate silver necklace, luxury black tuxedo, white shirt, black bow tie,\nElegant wedding church,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nwide establishing shot,\nvertical 9:16",
+    "transition": "cut",
+    "sfx": [],
+    "music_mood": "mysterious emotional tension",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S09",
+    "start": 26.0,
+    "end": 30.0,
+    "duration": 4.0,
+    "scene": "Elegant wedding church",
+    "characters": [
+      "Elena"
+    ],
+    "description": "Close-up of Elena looking down at her unwounded hands in disbelief.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "close-up on hands and face",
+    "dialogue": [],
+    "voice_over": "This can't be real...",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nClose-up of Elena looking down at her unwounded hands in disbelief.,\nminimalist white satin wedding dress, pearl earrings, delicate silver necklace,\nElegant wedding church,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nclose-up on hands and face,\nvertical 9:16",
+    "transition": "cut",
+    "sfx": [],
+    "music_mood": "mysterious emotional tension",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S10",
+    "start": 30.0,
+    "end": 34.0,
+    "duration": 4.0,
+    "scene": "Elegant wedding church",
+    "characters": [
+      "Claire"
+    ],
+    "description": "Claire sits in the front row smiling innocently in a champagne bridesmaid dress.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "slow zoom toward Claire",
+    "dialogue": [],
+    "voice_over": "",
+    "image_prompt": "Claire, a beautiful 27-year-old woman, long wavy blonde hair, green eyes, delicate feminine facial features, fair skin, slender elegant figure, sweet innocent appearance,\nClaire sits in the front row smiling innocently in a champagne bridesmaid dress.,\nelegant champagne-colored bridesmaid dress,\nElegant wedding church,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nslow zoom toward Claire,\nvertical 9:16",
+    "transition": "cut",
+    "sfx": [],
+    "music_mood": "mysterious emotional tension",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S11",
+    "start": 34.0,
+    "end": 39.0,
+    "duration": 5.0,
+    "scene": "Memory montage",
+    "characters": [
+      "Elena",
+      "Adrian",
+      "Claire"
+    ],
+    "description": "Rapid memory montage reusing betrayal, Elena's terrified eyes, and approaching headlights as short flashes.",
+    "motion_prompt": "flash",
+    "camera": "rapid flash montage",
+    "dialogue": [],
+    "voice_over": "I came back...",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nAdrian, a handsome 31-year-old man, short dark brown hair, sharp jawline, gray-blue eyes, tall athletic build, clean shaven, charming and sophisticated appearance,\nClaire, a beautiful 27-year-old woman, long wavy blonde hair, green eyes, delicate feminine facial features, fair skin, slender elegant figure, sweet innocent appearance,\nRapid memory montage reusing betrayal, Elena's terrified eyes, and approaching headlights as short flashes.,\nelegant black evening dress, luxury black tuxedo, white shirt, black bow tie, elegant champagne-colored bridesmaid dress,\nMemory montage,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nrapid flash montage,\nvertical 9:16",
+    "transition": "flash",
+    "sfx": [
+      "heartbeat"
+    ],
+    "music_mood": "mysterious emotional tension",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S12",
+    "start": 39.0,
+    "end": 44.0,
+    "duration": 5.0,
+    "scene": "Elegant wedding church",
+    "characters": [
+      "Elena",
+      "Adrian"
+    ],
+    "description": "Back at the wedding, Adrian smiles and extends his hand toward Elena.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "slow push toward Adrian's hand and Elena's face",
+    "dialogue": [
+      "ADRIAN: Elena?"
+    ],
+    "voice_over": "Three years before they killed me.",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nAdrian, a handsome 31-year-old man, short dark brown hair, sharp jawline, gray-blue eyes, tall athletic build, clean shaven, charming and sophisticated appearance,\nBack at the wedding, Adrian smiles and extends his hand toward Elena.,\nminimalist white satin wedding dress, pearl earrings, delicate silver necklace, luxury black tuxedo, white shirt, black bow tie,\nElegant wedding church,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nslow push toward Adrian's hand and Elena's face,\nvertical 9:16",
+    "transition": "cut",
+    "sfx": [],
+    "music_mood": "mysterious emotional tension",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S13",
+    "start": 44.0,
+    "end": 50.0,
+    "duration": 6.0,
+    "scene": "Elegant wedding church",
+    "characters": [
+      "Elena",
+      "Adrian"
+    ],
+    "description": "The priest repeats the question. Adrian smiles. Elena looks at him calmly as the music fades out, then says No.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "tight dramatic close-up",
+    "dialogue": [
+      "PRIEST: Elena, do you take this man to be your husband?",
+      "ELENA: No."
+    ],
+    "voice_over": "",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nAdrian, a handsome 31-year-old man, short dark brown hair, sharp jawline, gray-blue eyes, tall athletic build, clean shaven, charming and sophisticated appearance,\nThe priest repeats the question. Adrian smiles. Elena looks at him calmly as the music fades out, then says No.,\nminimalist white satin wedding dress, pearl earrings, delicate silver necklace, luxury black tuxedo, white shirt, black bow tie,\nElegant wedding church,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\ntight dramatic close-up,\nvertical 9:16",
+    "transition": "impact cut",
+    "sfx": [
+      "impact"
+    ],
+    "music_mood": "music fades to silence",
+    "asset_type": "image"
+  },
+  {
+    "shot_id": "S14",
+    "start": 50.0,
+    "end": 57.0,
+    "duration": 7.0,
+    "scene": "Elegant wedding church",
+    "characters": [
+      "Elena",
+      "Claire"
+    ],
+    "description": "Wedding guests react. Elena turns away from Adrian and looks directly toward Claire. Claire's smile disappears. Elena gives a subtle cold smile. Cut to black title SECOND CHANCE, then EPISODE 2.",
+    "motion_prompt": "slow_zoom_in",
+    "camera": "reaction montage to cold close-up",
+    "dialogue": [],
+    "voice_over": "This time...\nI'll destroy them first.",
+    "image_prompt": "Elena, a beautiful 27-year-old woman, long straight black hair, dark brown eyes, oval face, fair skin, small beauty mark under her left eye, slim elegant figure, refined facial features,\nClaire, a beautiful 27-year-old woman, long wavy blonde hair, green eyes, delicate feminine facial features, fair skin, slender elegant figure, sweet innocent appearance,\nWedding guests react. Elena turns away from Adrian and looks directly toward Claire. Claire's smile disappears. Elena gives a subtle cold smile. Cut to black title SECOND CHANCE, then EPISODE 2.,\nminimalist white satin wedding dress, pearl earrings, delicate silver necklace, elegant champagne-colored bridesmaid dress,\nElegant wedding church,\nwarm golden-white cinematic lighting, luxurious romantic wedding atmosphere, soft sunlight, white flowers, elegant modern European church,\ncinematic modern webtoon illustration, semi-realistic graphic novel style, dark romance thriller aesthetic, expressive detailed eyes, professional composition, dramatic cinematic lighting, high visual consistency, polished digital illustration, vertical 9:16,\nreaction montage to cold close-up,\nvertical 9:16",
+    "transition": "cut to black",
+    "sfx": [],
+    "music_mood": "revenge dark determination",
+    "asset_type": "image"
+  }
+]

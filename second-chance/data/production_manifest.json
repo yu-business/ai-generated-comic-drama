@@ -1,0 +1,23 @@
+{
+  "project": "SECOND CHANCE",
+  "episode": 1,
+  "resolution": "1080x1920",
+  "fps": 30,
+  "shots": 14,
+  "characters": [
+    "Elena",
+    "Adrian",
+    "Claire"
+  ],
+  "status": {
+    "storyboard": true,
+    "images": true,
+    "voices": true,
+    "render": true
+  },
+  "files": {
+    "video": "/home/yhua/Documents/ChatGPT/AI漫剧/second-chance/output/episode_001.mp4",
+    "subtitles": "/home/yhua/Documents/ChatGPT/AI漫剧/second-chance/output/episode_001.srt",
+    "storyboard": "/home/yhua/Documents/ChatGPT/AI漫剧/second-chance/data/storyboard.json"
+  }
+}

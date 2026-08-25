@@ -1,0 +1,72 @@
+characters:
+  Elena:
+    name: Elena
+    age: 27
+    role: protagonist
+    appearance:
+      gender: female
+      hair: long straight black hair
+      eyes: dark brown
+      face: oval
+      skin: fair
+      identifying_feature: small beauty mark under left eye
+      body: slim elegant figure
+    personality:
+      before_rebirth: [gentle, trusting, emotional]
+      after_rebirth: [calm, intelligent, controlled, dangerous, determined]
+    wedding_outfit:
+      - minimalist white satin wedding dress
+      - pearl earrings
+      - delicate silver necklace
+    death_outfit:
+      - elegant black evening dress
+    voice:
+      style: young adult female
+      tone: intimate cinematic narration
+      transformation: warm at first, colder after rebirth
+    identity_prompt: >-
+      Elena, a beautiful 27-year-old woman, long straight black hair, dark brown
+      eyes, oval face, fair skin, small beauty mark under her left eye, slim
+      elegant figure, refined facial features
+  Adrian:
+    name: Adrian
+    age: 31
+    role: husband
+    appearance:
+      gender: male
+      hair: short dark brown hair
+      eyes: gray-blue
+      face: sharp jawline
+      body: tall athletic build
+      facial_hair: clean shaven
+    personality:
+      public: [charming, trustworthy, sophisticated, gentle]
+      hidden: [manipulative, emotionally cold]
+    wedding_outfit:
+      - luxury black tuxedo
+      - white shirt
+      - black bow tie
+    identity_prompt: >-
+      Adrian, a handsome 31-year-old man, short dark brown hair, sharp jawline,
+      gray-blue eyes, tall athletic build, clean shaven, charming and
+      sophisticated appearance
+  Claire:
+    name: Claire
+    age: 27
+    role: best_friend
+    appearance:
+      gender: female
+      hair: long wavy blonde hair
+      eyes: green
+      face: delicate feminine features
+      skin: fair
+      body: slender elegant figure
+    personality:
+      public: [sweet, innocent, supportive]
+      hidden: [deceptive, calculating]
+    wedding_outfit:
+      - elegant champagne-colored bridesmaid dress
+    identity_prompt: >-
+      Claire, a beautiful 27-year-old woman, long wavy blonde hair, green eyes,
+      delicate feminine facial features, fair skin, slender elegant figure,
+      sweet innocent appearance

@@ -1,0 +1,10 @@
+project: SECOND CHANCE
+episode: 1
+episode_title: EP01 - I Woke Up at My Own Wedding
+resolution:
+  width: 1080
+  height: 1920
+fps: 30
+duration_target_seconds: 57
+image_provider: placeholder
+voice_provider: local

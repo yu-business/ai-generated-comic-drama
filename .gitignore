@@ -1,0 +1,15 @@
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+second-chance/bin/
+second-chance/assets/voices/
+second-chance/assets/overlays/rain_frames/
+second-chance/assets/audio/publish_voice.wav
+second-chance/assets/audio/publish_voice.mp3
+second-chance/assets/audio/publish_voice.vtt
+second-chance/output/publish_shots/
+second-chance/output/shots/
+second-chance/output/*_no_subs.mp4
+second-chance/output/episode_001_mix.wav

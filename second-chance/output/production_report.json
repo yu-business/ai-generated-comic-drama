@@ -1,0 +1,25 @@
+{
+  "type": "publishable_cut",
+  "duration_target": 37.2,
+  "visual_assets": [
+    "key_death.png",
+    "key_betrayal.png",
+    "key_headlights.png",
+    "key_rebirth.png",
+    "key_wedding.png",
+    "key_wedding.png",
+    "key_revenge.png"
+  ],
+  "audio": {
+    "bgm": "assets/music/background.mp3",
+    "sfx": [
+      "rain.wav",
+      "thunder.wav",
+      "heartbeat.wav",
+      "crash.wav",
+      "impact.wav"
+    ],
+    "voice": "not included: external TTS requires explicit approval"
+  },
+  "video": "/home/yhua/Documents/ChatGPT/AI漫剧/second-chance/output/episode_001.mp4"
+}
